@@ -1,0 +1,5 @@
+AC_INIT(main.c)
+AC_MSG_NOTICE([For Calculating Next Rover Coordinate on XY-Plane])
+AM_INIT_AUTOMAKE(rover,0,1)
+AC_PROG_CC
+AC_OUTPUT(Makefile)
